@@ -26,3 +26,6 @@ Python, pandas, matplotlib, scikit-learn
 - Handle class imbalance (e.g., class weights / resampling)
 - Model comparison + calibration (ROC-AUC, PR-AUC)
 - Feature importance + error analysis
+
+## How to run
+pip install -r requirements.txt
