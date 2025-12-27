@@ -1,38 +1,28 @@
-# \# Credit Risk Analysis
+# Credit Risk Analysis
 
-# 
+Credit risk EDA + baseline models to predict loan default risk using Python.
 
-# This project explores a credit risk dataset and builds baseline models to predict loan default risk.
+## What this project does
+- Cleans and explores a public credit dataset
+- Creates clear, reproducible visualizations (exported to `reports/figures/`)
+- Builds baseline models as a starting point for default-risk prediction
 
-# The focus is on clean EDA, clear visualizations, and reproducible results.
+## Repo structure
+- `Notebooks/` – step-by-step notebooks (loading/cleaning + analysis)
+- `data/` – public dataset used in this project
+- `reports/figures/` – exported charts (PNG)
+- `src/` – small helper modules
 
-# 
+## Key outputs
+- Correlation heatmap (`correlation_matrix.png`)
+- Missing values overview (`missing_values_percent.png`)
+- Interest rate vs. loan status (`loan_int_rate_by_loan_status.png`)
 
-# \## Project structure
+## Tech stack
+Python, pandas, matplotlib, scikit-learn
 
-# \- `Notebooks/` – notebooks for loading/cleaning and analysis
-
-# \- `data/` – dataset used in this project (public)
-
-# \- `reports/figures/` – exported plots (PNG)
-
-# \- `src/` – small helper modules
-
-# 
-
-# \## Key outputs
-
-# \- Correlation heatmap
-
-# \- Missing values overview
-
-# \- Interest rate by loan status
-
-# 
-
-# \## Tech stack
-
-# Python, pandas, matplotlib, scikit-learn
-
-
-
+## Next improvements
+- Proper train/validation split + cross-validation
+- Handle class imbalance (e.g., class weights / resampling)
+- Model comparison + calibration (ROC-AUC, PR-AUC)
+- Feature importance + error analysis
